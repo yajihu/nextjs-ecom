@@ -39,8 +39,9 @@ Index.getInitialProps = async ({ req }) => {
   return {
     products: [
 	  {id: "nextjs_benzAMGGTR", name: "Mercedes-AMG GT R", price: 190400.00, image: "https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/whichcar/2019/06/19/-1/2019-Mercedes-AMG-GT-R-12-hours-review.jpg", description: "Engine type: 	4.0 L M178 (Mercedes-AMG) twin-turbocharged V8 6.2 L M159 DOHC V8 (AMG GT3)."} as IProduct,
-      {id: "nextjs_audiR8", name: "Audi R8", price: 221000.00, image: "https://cdn.motor1.com/images/mgl/JmVR6/s4/2019-audi-r8-onlocation.jpg", description: "Engine type: V10 / 40V. Max. output 602 hp @ 8100 rpm."} as IProduct,
+      {id: "nextjs_audiR8", name: "Audi R8 Coupé", price: 221000.00, image: "https://cdn.motor1.com/images/mgl/JmVR6/s4/2019-audi-r8-onlocation.jpg", description: "Engine type: V10 / 40V. Max. output 602 hp @ 8100 rpm."} as IProduct,
 	  {id: "nextjs_porsche911", name: "Porsche 911 GT2", price: 295000.00, image: "https://www.motortrend.com/uploads/sites/5/2018/09/2018-Porsche-911-GT2-front-three-quarter-in-motion-2.jpg?fit=around%7C875:492", description: "Engine type: 3.8L flat-six 700 hp and 553 lb-ft of torque."} as IProduct,
+	  {id: "nextjs_lamborghiniHuracan", name: "Lamborghini Huracán", price: 265000.00, image: "https://www.motortrend.com/uploads/sites/5/2018/02/2018-Lamborghini-Huracan-Performante-front-side-view-closer.jpg?fit=around%7C875:492", description: "Engine type: 5.2L V10 602 hp and 413 lb-ft of torque."} as IProduct,
 	  {id: "nextjs_mclaren600LT", name: "McLaren 600LT", price: 259000.00, image: "https://www.carscoops.com/wp-content/uploads/2019/10/b225c912-mclaren-600lt-comet-fade.jpg", description: "Engine type: turbocharged 3.8-liter V8 (592 horsepower, 457 lb-ft of torque)."} as IProduct
 
     ]

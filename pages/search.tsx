@@ -3,6 +3,7 @@ import ProductList from "../components/ProductList"
 import { IProduct } from "../components/Product"
 import Footer from "../components/Footer"
 import Head from "next/head"
+import SearchBar from "../components/SearchBar"
 
 import "../styles.scss"
 
@@ -25,6 +26,10 @@ const Index = (props: IIndexProps) => {
         <div className="promotional-message">
           <h1 className="header__title">Working on it...</h1>
         </div>
+		<div className="promotional-message">
+          <h1 className="header__title"><SearchBar /></h1> 
+        </div>
+		
       </main>
       <Footer />
     </div>
