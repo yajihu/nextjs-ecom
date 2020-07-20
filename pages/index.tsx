@@ -24,6 +24,11 @@ const Index = (props: IIndexProps) => {
       <Header />
       <main className="main">
 		<img src="/static/aquarium.svg" alt="a" className="background-image" />
+		<div className="promotional-message">
+          <h3>New Opening!!!</h3>
+          <h2>Need For Speed</h2>
+          <p>An <strong>exclusive collection of sports car</strong> available for everyone.</p>
+        </div>
         <ProductList products={props.products} />
       </main>
       <Footer />
